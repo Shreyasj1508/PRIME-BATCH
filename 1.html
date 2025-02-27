@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="./1.css" />
+  </head>
+
+  <body>
+    <nav class="flex-div">
+      <div class="nav-left">
+        <img src="./images/menu.png" class="menu-icon" id="menu-icon" />
+        <img src="./images/logo.png" class="logo" />
+      </div>
+      <div class="search-container">
+        <input
+          type="text"
+          name="search-text"
+          placeholder="Search"
+          id="search-input"
+        />
+        <button id ="search-btn" onclick="handleSearch">🔍</button>
+        <img src="./images/voice-search.png" class="voice-logo" />
+      </div>
+
+      <div class="nav-middle"></div>
+
+      <div class="nav-right">
+        <img src="./images/upload.png" class="nav-icon" />
+        <img src="./images/more.png" class="nav-icon" />
+        <img src="./images/notification.png" class="nav-icon" />
+        <img src="./images/Jack.png" class="user-icon" />
+      </div>
+    </nav>
+    
+    <div class="filter-section">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">DSA</button>
+      <button class="filter-btn">Development</button>
+      <button class="filter-btn">UPSC</button>
+      <button class="filter-btn">Cricket</button>
+      <button class="filter-btn">Music</button>
+      <button class="filter-btn">Entertainment</button>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="./images/home.png" class="sidebar-icon" />Home</a>
+            <a href=""><img src="./images/explore.png" class="sidebar-icon" />Explore</a>
+            <a href=""><img src="./images/subscriprion.png" class="sidebar-icon" />Subscription</a>
+            <a href="./history.html"><img src="./images/history.png" class="sidebar-icon" />History</a>
+            <a href=""><img src="./images/library.png" class="sidebar-icon" />Library</a>
+            <a href=""><img src="./images/playlist.png" class="sidebar-icon" />Playlist</a>
+            <a href=""><img src="./images/messages.png" class="sidebar-icon" />Message</a>
+            <hr />
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="./images/Jack.png" class="subscribed-icon" />Shreyas</a>
+            <a href=""><img src="./images/simon.png" class="subscribed-icon" />Simon</a>
+            <a href=""><img src="./images/tom.png" class="subscribed-icon" />Tom</a>
+            <a href=""><img src="./images/megan.png" class="subscribed-icon" />Megan</a>
+            <a href=""><img src="./images/cameron.png" class="subscribed-icon" />Cameron</a>
+        </div>
+    </div>
+
+    <main>
+      <!-- Video or Content Cards will be here -->
+    </main>
+
+    <script src="./1.js"></script>
+  </body>
+</html>
