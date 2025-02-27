@@ -1,0 +1,23 @@
+nav{
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#locations{
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+p{
+    padding: 0.25 1rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    transition: all 600ms ease;
+}
+.search-container{
+    position: relative;
+}
+
