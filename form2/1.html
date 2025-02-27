@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./1.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <nav class="navbar">
+            <div class="form">
+                
+                <form onsubmit="handleSubmit(event)">
+                    <div class="formFields">
+                        <h3 class="navHeading">Add Your Details Here :-</h3>
+                        <input type="text" name="name" placeholder="Enter your name" required class="inp">
+                        <input type="text" name="city" placeholder="Enter your city" required class="inp">
+                        <input type="email" name="email" placeholder="Enter your email" required class="inp">
+                        <button class="btn">ADD</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </nav>
+
+        <div class="list">
+            <select name="sel" id="sel" onchange="handleChange(event)">
+                <option value="any">Select city</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+            </select>
+        </div>
+
+        <div class="content">
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./1.js"></script>
+</body>
+</html>
